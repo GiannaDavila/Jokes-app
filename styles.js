@@ -3,29 +3,31 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: 'purple',
+      backgroundColor: 'red',
       alignItems: 'center',
       justifyContent: 'center',
-      justifyContent: "space-evenly"
+      justifyContent: "space-around"
     },
     jokeText: {
     jokeAlign: 'center',
     fontSize: 40,
-    color: 'yellow'
+    color: 'yellow',
+    padding: 5,
     },
     punchline: {
     punchlineAlign: 'center',
-    fontSize: 70,
+    fontSize: 40,
     color: 'red',
     },
     bigButton:{
         color: 'blue',
         padding: 24,
         borderRadius: 6,
-        backgroundColor: 'white'
+        backgroundColor: 'brown',
+        justifyContent: "flex-end"
     },
     buttonText:{
-        color: 'black',
+        color: 'white',
         fontSize: 30,
     }
 
